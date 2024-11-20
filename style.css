@@ -1,11 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .navbar{
 background-color: #d4d5f7;
+margin: 0;
 }
 .container{
     display:flex;
     flex-direction: row;
     justify-content:space-between ;
-    margin: 20px;
+    margin: 0 20px;
     /* background-color: #e43131; */
 
 }
@@ -46,7 +51,7 @@ text-decoration: none;
 }
 .herosection{
     background-color: rgb(163, 163, 172);
-    height: 80vh;
+    height: 70vh;
 
 }
 .herosection .container{
@@ -54,7 +59,7 @@ text-decoration: none;
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 50px;
 
 }
 .herosection .container h1{
@@ -82,3 +87,38 @@ text-decoration: none;
     border-style: solid;
     cursor: pointer;
 }
+.features{
+   background-color:rgb(163, 163, 172) ;
+
+}
+.features .container{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 30px;
+}
+.cars{
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    justify-items: center;
+
+}
+
+.cars img{
+    width: 270px;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+.cars h3{
+    justify-self:center ;
+    color:whitesmoke ;
+    font-weight: 900;
+
+}
+.cars p{
+    justify-self: center;
+    color: white;
+    font-weight: 500;
+}
+
